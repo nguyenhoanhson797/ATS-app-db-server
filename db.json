@@ -1,7 +1,7 @@
 {
     "jobPositions" : [
         {
-            "JobPositionsId": "1",
+            "JobPositionsId": 1,
             "Position": "Full-Stack Developer",
             "dateCreated": "",
             "recruiter": "Nguyen Hoanh Son",
@@ -61,7 +61,29 @@
     ],
     "candidates": [
         {
-            "candidateId": "1",
+            "candidateId": 1,
+            "name": {
+                "first": "Duyen",
+                "middle": "Thi My",
+                "last": "Ngo"
+            },
+            "age": 24,
+            "sex": "female",
+            "location": "Ho Chi Minh",
+            "email": "duyenngo@gmail.com",
+            "jobTitle": "Fullstack developer",
+            "yoe": 2,
+            "expected salary": 2000,
+            "appliedDate": "",
+            "appliedPosition": 1,
+            "imgUrl": "",
+            "cvUrl": "",
+            "matchingScore": 0,
+            "skills": [".Net", "C#", "Javascript", "React"],
+            "keywords": ""
+        },
+        {
+            "candidateId": 2,
             "name": {
                 "first": "Lam",
                 "middle": "Duong Bao",
@@ -80,6 +102,28 @@
             "cvUrl": "",
             "matchingScore": 0,
             "skills": ["Java", "Python", "Javascript", "Angular", "MySQL"],
+            "keywords": ""
+        },
+        {
+            "candidateId": 3,
+            "name": {
+                "first": "An",
+                "middle": "Bao",
+                "last": "Nguyen"
+            },
+            "age": 23,
+            "sex": "female",
+            "location": "Da Nang",
+            "email": "nbaoan@gmail.com",
+            "jobTitle": "Frontend developer",
+            "yoe": 1,
+            "expected salary": 1000,
+            "appliedDate": "",
+            "appliedPosition": 1,
+            "imgUrl": "",
+            "cvUrl": "",
+            "matchingScore": 0,
+            "skills": ["Javascript", "Angular", "React", "Typescript"],
             "keywords": ""
         }
     ]
