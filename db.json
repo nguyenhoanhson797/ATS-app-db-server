@@ -1,7 +1,7 @@
 {
     "jobPositions" : [
         {
-            "JobPositionsId": 1,
+            "JobPositionId": 1,
             "Position": "Full-Stack Developer",
             "dateCreated": "",
             "recruiter": "Nguyen Hoanh Son",
@@ -125,6 +125,20 @@
             "matchingScore": 0,
             "skills": ["Javascript", "Angular", "React", "Typescript"],
             "keywords": ""
+        }
+    ],
+    "events": [
+        {
+            "eventName": "",
+            "eventType": "",
+            "note": "",
+            "date": {
+                "start": "",
+                "end": ""
+            },
+            "host": "",
+            "candidateId": "",
+            "JobPositionId": ""
         }
     ]
 }
