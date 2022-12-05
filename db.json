@@ -1,11 +1,86 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "jobPositions" : [
+        {
+            "JobPositionsId": "1",
+            "Position": "Full-Stack Developer",
+            "dateCreated": "",
+            "recruiter": "Nguyen Hoanh Son",
+            "deadline": "",
+            "jd": "",
+            "salaryRange": 3000,
+            "hiringAmount": 10,
+            "activities": [
+                {
+                    "name": "",
+                    "date": "",
+                    "description": "",
+                    "note": ""
+                }
+            ],
+            "status": {
+                "Pending": "Pending",
+                "Going": "Going",
+                "Holding": "Holding",
+                "Finished": "Finished"
+            },
+            "keyWords": ["eveloper", "development", "engineer", "fullstack", "backend", "frontend", "java", ".net", "javascript", "typescript"],
+            "hiringStage": {
+                "applied": [
+                    {}
+                ],
+                "screening": [
+                    {
+                        "candidateId": 1,
+                        "note": ""
+                    },
+                    {
+                        "candidateId": 2,
+                        "note": ""
+                    }
+                ],
+                "testing": [
+                    {}
+                ],
+                "interviewing": [
+                    {}
+                ],
+                "hiring": [
+                    {}
+                ],
+                "hired": [
+                    {}
+                ],
+                "rejected": [
+                    {}
+                ],
+                "notResponse": [
+                    {}
+                ]
+            }
+        }
+    ],
+    "candidates": [
+        {
+            "candidateId": "1",
+            "name": {
+                "first": "Lam",
+                "middle": "Duong Bao",
+                "last": "Le"
+            },
+            "age": 28,
+            "sex": "male",
+            "location": "Dong Nai",
+            "email": "lelam2k@gmail.com",
+            "jobTitle": "Fullstack developer",
+            "yoe": 6,
+            "expected salary": 4000,
+            "appliedDate": "",
+            "appliedPosition": 1,
+            "imgUrl": "",
+            "cvUrl": "",
+            "matchingScore": 0,
+            "skills": ["Java", "Python", "Javascript", "Angular", "MySQL"],
+            "keywords": ""
+        }
+    ]
 }
